@@ -1,0 +1,14 @@
+@keyframes glow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(0.98);
+  }
+}
+
+.countdown-glow {
+  animation: glow 2s ease-in-out infinite;
+} 
